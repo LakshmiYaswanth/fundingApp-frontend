@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdminServLet</servlet-name>
+  	<display-name>AdminServLet</display-name>
+  	<description></description>
+  	<servlet-class>controller.AdminServLet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonorServlet</servlet-name>
+  	<display-name>DonorServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.DonorServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonorRegister</servlet-name>
+  	<display-name>DonorRegister</display-name>
+  	<description></description>
+  	<servlet-class>controller.DonorRegister</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestServlet</servlet-name>
+  	<display-name>RequestServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.RequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TransactionServlet</servlet-name>
+  	<display-name>TransactionServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.TransactionServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestTypeServlet</servlet-name>
+  	<display-name>RequestTypeServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.RequestTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminServLet</servlet-name>
+  	<url-pattern>/AdminServLet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonorServlet</servlet-name>
+  	<url-pattern>/DonorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonorRegister</servlet-name>
+  	<url-pattern>/DonorRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestServlet</servlet-name>
+  	<url-pattern>/RequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TransactionServlet</servlet-name>
+  	<url-pattern>/TransactionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestTypeServlet</servlet-name>
+  	<url-pattern>/RequestTypeServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
