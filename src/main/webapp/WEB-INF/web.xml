@@ -5,63 +5,103 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>AdminServLet</servlet-name>
-  	<display-name>AdminServLet</display-name>
+  	<servlet-name>Adminloginservlet</servlet-name>
+  	<display-name>Adminloginservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.AdminServLet</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Adminloginservlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>DonorServlet</servlet-name>
-  	<display-name>DonorServlet</display-name>
+  	<servlet-name>Donorloginservlet</servlet-name>
+  	<display-name>Donorloginservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.DonorServlet</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Donorloginservlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>DonorRegister</servlet-name>
-  	<display-name>DonorRegister</display-name>
+  	<servlet-name>Donorregisterservlet</servlet-name>
+  	<display-name>Donorregisterservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.DonorRegister</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Donorregisterservlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>RequestServlet</servlet-name>
-  	<display-name>RequestServlet</display-name>
+  	<servlet-name>Requestservlet</servlet-name>
+  	<display-name>Requestservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.RequestServlet</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Requestservlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>TransactionServlet</servlet-name>
-  	<display-name>TransactionServlet</display-name>
+  	<servlet-name>Requesttypeservlet</servlet-name>
+  	<display-name>Requesttypeservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.TransactionServlet</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Requesttypeservlet</servlet-class>
   </servlet>
   <servlet>
-  	<servlet-name>RequestTypeServlet</servlet-name>
-  	<display-name>RequestTypeServlet</display-name>
+  	<servlet-name>Transactionservlet</servlet-name>
+  	<display-name>Transactionservlet</display-name>
   	<description></description>
-  	<servlet-class>controller.RequestTypeServlet</servlet-class>
+  	<servlet-class>com.revature.myfundingapp.controller.Transactionservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>request</servlet-name>
+  	<display-name>request</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.myfundingapp.controller.request</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DonorListservlet</servlet-name>
+  	<display-name>DonorListservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.myfundingapp.controller.DonorListservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Requestupdateservlet</servlet-name>
+  	<display-name>Requestupdateservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.myfundingapp.controller.Requestupdateservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestlistServlet</servlet-name>
+  	<display-name>RequestlistServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.myfundingapp.controller.RequestlistServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>AdminServLet</servlet-name>
-  	<url-pattern>/AdminServLet</url-pattern>
+  	<servlet-name>Adminloginservlet</servlet-name>
+  	<url-pattern>/Adminloginservlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>DonorServlet</servlet-name>
-  	<url-pattern>/DonorServlet</url-pattern>
+  	<servlet-name>Donorloginservlet</servlet-name>
+  	<url-pattern>/Donorloginservlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>DonorRegister</servlet-name>
-  	<url-pattern>/DonorRegister</url-pattern>
+  	<servlet-name>Donorregisterservlet</servlet-name>
+  	<url-pattern>/Donorregisterservlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>RequestServlet</servlet-name>
-  	<url-pattern>/RequestServlet</url-pattern>
+  	<servlet-name>Requestservlet</servlet-name>
+  	<url-pattern>/Requestservlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>TransactionServlet</servlet-name>
-  	<url-pattern>/TransactionServlet</url-pattern>
+  	<servlet-name>Requesttypeservlet</servlet-name>
+  	<url-pattern>/Requesttypeservlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
-  	<servlet-name>RequestTypeServlet</servlet-name>
-  	<url-pattern>/RequestTypeServlet</url-pattern>
+  	<servlet-name>Transactionservlet</servlet-name>
+  	<url-pattern>/Transactionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>request</servlet-name>
+  	<url-pattern>/request</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DonorListservlet</servlet-name>
+  	<url-pattern>/DonorListservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Requestupdateservlet</servlet-name>
+  	<url-pattern>/Requestupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestlistServlet</servlet-name>
+  	<url-pattern>/RequestlistServlet</url-pattern>
   </servlet-mapping>
 </web-app>
